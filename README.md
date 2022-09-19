@@ -27,3 +27,4 @@ $ yarn
 # 라이브러리 적용 이유
 - React Query
 - styled-components
+- -Prettier
