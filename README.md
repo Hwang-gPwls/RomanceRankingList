@@ -26,5 +26,7 @@ $ yarn
 
 # 라이브러리 적용 이유
 - React Query
+- Intersection Observer API
 - styled-components
-- -Prettier
+- Prettier
+
