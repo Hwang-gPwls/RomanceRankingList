@@ -1,4 +1,4 @@
-import { ReactNode } from "react";
+import React, { ReactNode } from "react";
 import styled from "styled-components";
 
 interface FilterButtonProps {
@@ -27,6 +27,7 @@ const FilterButton = ({
 };
 
 const Button = styled.button<{ isClick: boolean }>`
+  width: 200px;
   background-color: ${({ isClick }) => (isClick ? "#fff" : "transparent")};
   color: ${({ isClick }) => (isClick ? "#1e2022" : "#fff")};
   border: 0;

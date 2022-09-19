@@ -1,4 +1,10 @@
-import { useCallback, useEffect, useRef, useState, useMemo } from "react";
+import React, {
+  useCallback,
+  useEffect,
+  useRef,
+  useState,
+  useMemo,
+} from "react";
 import styled from "styled-components";
 import useFetchRomance from "api/romance";
 import Content from "components/Content";

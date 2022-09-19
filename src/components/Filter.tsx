@@ -19,7 +19,7 @@ const Filter = ({ generName, setFilterVal }: FilterProps) => {
     const key = e.currentTarget.id;
 
     setFilterVal((current) => {
-      let newCondition = { ...current };
+      const newCondition = { ...current };
       newCondition[key] = !current[key];
 
       if (key === "isScheduled" && !current[key] === true)
@@ -52,7 +52,7 @@ const Filter = ({ generName, setFilterVal }: FilterProps) => {
         <FilterButton
           id={"isFreedEpisode3"}
           handleClick={handleClick}
-          title={"무료회차 3개 이상"}
+          title={"무료회차 3회 ⬆"}
           isClick={isButtonsClick.isFreedEpisode3}
         />
       </Wrapper>
@@ -79,7 +79,7 @@ const Title = styled.div`
 `;
 
 const Wrapper = styled.div`
-  width: 52rem;
+  width: 40rem;
   height: 90px;
   display: flex;
   justify-content: space-around;

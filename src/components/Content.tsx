@@ -103,15 +103,10 @@ const Content = ({
 const Container = styled.div`
   width: 100%;
   box-sizing: border-box;
-  transition: all 0.4s;
-  &:hover {
-    transform: scale(1.02);
-    transition: all 0.4s;
-  }
 `;
 
 const Main = styled.div`
-  width: 43rem;
+  width: 35rem;
   height: 170px;
   border-radius: 10px;
   overflow: hidden;
